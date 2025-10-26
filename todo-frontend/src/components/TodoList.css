@@ -1,0 +1,23 @@
+.todo-list{
+    list-style-type: none;
+    padding: 0;
+    
+    width: 100%;
+    padding: 15px;
+    width: fit-content;
+    margin:  auto;
+    
+
+}
+
+.todo-item{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 30px 0;
+
+}
+.todo-actions{
+    display: flex;
+    gap: 10px;
+}
