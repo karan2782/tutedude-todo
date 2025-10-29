@@ -60,7 +60,7 @@ const EditTodo = ({ fetchTodos, id, setEditTodo }) => {
     <div className="edit-todo-modal">
       <form onSubmit={handleUpdate} className="edit-form">
         <div className="form-group">
-        <div className="cross-icon" onClick={() => setEditTodo(null)}></div>
+        <div className="cross-icon" onClick={() => setEditTodo(null)}>Close</div>
           <label htmlFor="title">Title:</label>
           <input
             type="text"
